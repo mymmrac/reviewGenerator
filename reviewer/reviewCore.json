@@ -1,0 +1,113 @@
+{
+  "in_between_text": {
+    "start": [
+      "Today I will tell you about %name%. ",
+      "This time it's %name%. "
+    ],
+    "category": [
+      "It's a great kind of %category% place. "
+    ],
+    "sub_category": [
+      "It's cool %sub_category%. ",
+      "The %name% is a %sub_category%. ",
+      "Good %sub_category%. "
+    ],
+    "features": [
+      "It has this features: \n%features%"
+    ],
+    "end": [
+      "I hope my review will help you.",
+      "I hope review was useful."
+    ]
+  },
+  "categories": [
+    {
+      "name": "tourism",
+      "sub_categories": [
+        "museum",
+        "monument",
+        "church"
+      ]
+    },
+    {
+      "name": "education",
+      "sub_categories": [
+        "school",
+        "university",
+        "kindergarten"
+      ]
+    },
+    {
+      "name": "food",
+      "sub_categories": [
+        "cafe",
+        "restaurant"
+      ]
+    },
+    {
+      "name": "shop",
+      "sub_categories": [
+        "shopping center",
+        "food shop",
+        "pharmacy"
+      ]
+    },
+    {
+      "name": "rest",
+      "sub_categories": [
+        "park",
+        "cinema"
+      ]
+    }
+  ],
+  "features": [
+    {
+      "name": "Address",
+      "multiple": false,
+      "fields": [
+        "%address%"
+      ]
+    },
+    {
+      "name": "Recommendation",
+      "multiple": true,
+      "fields": [
+        "great",
+        "cool",
+        "bad",
+        "recommend",
+        "don`t recommend",
+        "need to visit"
+      ]
+    },
+    {
+      "name": "Location",
+      "multiple": true,
+      "fields": [
+        "city center",
+        "good location",
+        "bad location",
+        "quiet place",
+        "noisy place"
+      ]
+    },
+    {
+      "name": "Size",
+      "multiple": false,
+      "fields": [
+        "huge",
+        "big",
+        "medium",
+        "small"
+      ]
+    },
+    {
+      "name": "Is for kids",
+      "multiple": false,
+      "fields": [
+        "yes",
+        "no"
+      ]
+    }
+  ]
+}
